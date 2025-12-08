@@ -1,0 +1,58 @@
+body{
+    font-family: "Yu Mincho", "Hiragino Micho", "Hiragino Mincho Pro", sans-serif;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 ;
+}
+
+.omikuji{
+    text-align: center;
+    padding: 40px;
+    border: 5px double #666;
+    border-radius: 20px;
+    width: 400px;
+    background-color: white;
+}
+
+.omikuji-handline{
+    margin-bottom: 40px ;
+    font-size: 32px;
+    color: white;
+    border: 5px solid #666;
+    background-color: red;
+}
+
+.omikuji-result{
+    margin-bottom: 40px;
+}
+
+.omikuji-result img{
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.omikuji-result img.active{
+    transform: scale(1.2) rotate(-10deg);
+}
+
+.omikuji-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 5px double #666;
+    background-color: #ff6666;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.omikuji-btn:hover{
+    transform: translateY(-3px);
+    background-color: #ff4d4d;
+}
+
+#js-message{
+    margin-bottom: 40px;
+}
